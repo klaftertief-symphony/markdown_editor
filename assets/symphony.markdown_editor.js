@@ -18,7 +18,7 @@ $.MarkdownEditor = function(element, options){
 			replace: "_$1_$2"
 		},
 		'function-code': {
-			search: /(^[\n]+)([\n\s]*)/g,
+			search: /([^\n]+)([\n\s]*)/g,
 			replace: "`$1`$2"
 		},
 		'function-hr': {
@@ -137,7 +137,7 @@ $.MarkdownEditor = function(element, options){
 						<span class="function-divider">&nbsp;</span>\
 						<a href="#" class="function-bold" title="Bold">B</a>\
 						<a href="#" class="function-italic" title="Italic">i</a>\
-						<a href="#" class="function-code" title="Code">&lt;&gt;</></a>\
+						<a href="#" class="function-code" title="Code">&lt;&gt;</a>\
 						<span class="function-divider">&nbsp;</span>\
 						<a href="#" class="function-link" title="Link">&infin;</a>\
 						<a href="#" class="function-image" title="Image">&#9635;</a>\
