@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="reflectionfield" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Markdown Editor</name>
+	<description>Adds a markdown editor to every markdown textarea field on every entry page.</description>
+	<repo type="github">https://github.com/klaftertief/markdown_editor</repo>
+	<types>
+		<type>Field Types</type>
+	</types>
+	<authors>
+		<author>
+			<name github="klaftertief" symphony="klaftertief">Jonas Coch</name>
+			<website>http://klaftertief.de</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="0.1" date="2012-05-22" min="2.3"/>
+	</releases>
+</extension>
