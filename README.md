@@ -1,13 +1,16 @@
-# Markdown Editor #
+# Markdown Editor
 
-A Markdown Editor for Symphony.  
+A Markdown Editor for Symphony.
 
-- Version: unpublished
-- Date: unpublished
-- Requirements: Symphony 2.2 or newer, <http://github.com/symphonycms/symphony-2/>
-- Author: Jonas Coch, jonas@klaftertief.de
-- GitHub Repository: <https://github.com/klaftertief/markdown_editor/>
+## Installation
 
-## Credits ##
+1. Upload the 'markdown_editor' folder in this archive to your Symphony 'extensions' folder.
+2. Enable it by selecting the "Markdown Editor", choose Enable from the with-selected menu, then click Apply.
 
-This a port of the Markdown editor from the GitHub Gollum project <https://github.com/github/gollum> and inspired and inspired by <https://github.com/JFrolich/simple-markdown-editor>.
+## Usage
+
+This extension automatically adds a markdown editor to every markdown textarea field on every entry page.
+
+## Credits
+
+This a port of the Markdown editor from the GitHub Gollum project <https://github.com/github/gollum> and inspired by <https://github.com/JFrolich/simple-markdown-editor>.
