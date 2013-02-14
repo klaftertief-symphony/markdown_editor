@@ -110,7 +110,7 @@ $.MarkdownEditor = function(element, options){
 
 	if (!$textarea.is('textarea')) debug('You can only call this plugin on textareas!');
 
-	$field = $textarea.closest('.field');
+	$field = $textarea.closest('div');
 	editor.settings = {};
 
 	editor.init = function() {
