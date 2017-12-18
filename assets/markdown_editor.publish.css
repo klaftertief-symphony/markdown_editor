@@ -25,7 +25,7 @@
 		vertical-align: top;
 		border: 1px solid transparent;
 		border-radius: 3px;
-		color: #757c84;
+		color: #657685;
 		font-size: 12px;
 		line-height: 24px;
 		text-align: center;
@@ -34,7 +34,7 @@
 	.markdowneditor-function-buttons a:hover {
 		color: #2f77eb;
 		text-decoration: none;
-		border-color: #757c84;
+		border-color: #657685;
 	}
 	.markdowneditor-function-buttons a.function-hr,
 	.markdowneditor-function-buttons a.function-ol {
